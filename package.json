@@ -6,7 +6,6 @@
     "bin": "bin.js",
     "scripts": {
         "test": "jest",
-        "prepublish": "npm run build",
         "build": "tsc --project .",
         "develop": "babel --extensions=\".ts\" --out-dir=. src/ -w"
     },
